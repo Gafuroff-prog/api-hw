@@ -1,0 +1,50 @@
+.card{
+    width: 300px;
+    height: 200px;
+    border: none;
+    background-color: greenyellow;
+    border-radius: 25px;
+    text-align: center;
+}
+.kartochki{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.header{
+    display: flex;
+}
+#dark-mode{
+    width: 50px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    position: relative;
+    left: 390px;
+    top: 30px;
+    text-align: center;
+}
+input{
+    position: relative;
+    left: 400px;
+    top: 30px;
+    height: 40px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+}
+button{
+    position: relative;
+    left: 420px;
+    top: 30px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    background-color: greenyellow;
+    box-sizing: border-box;
+}
